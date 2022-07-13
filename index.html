@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Registro</title>
+
+</head>
+
+<body>
+  <h1>Registro de Estudiantes</h1>
+  <hr>
+  <div id="contenido">
+    <h2>Formulario de registro</h2>
+    <form id="formReg">
+      <label for="fregistro">N° Registro</label><br>
+      <input type="text" name="fregistro" id="fregistro"><br>
+      <label for="fnombre">Nombre:</label><br>
+      <input type="text" name="fnombre" id="fnombre"><br>
+      <label for="fdireccion">Direccion:</label><br>
+      <input type="text" name="fdireccion" id="fdireccion"><br>
+      <button onclick="fregistrar()">Registrar</button>
+    </form>
+    <button onclick="fmostrar()">Mostrar</button>
+    <button onclick="limpiar()">Limpiar</button>
+
+    <p id="pReg"></p>
+  </div>
+
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
